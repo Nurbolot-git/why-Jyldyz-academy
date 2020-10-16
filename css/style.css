@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body
+{
+    font-family: Tahoma, sans-serif;
+    line-height: 1.5;
+    color: #333333;
+}
+.section{
+    padding: 30px 10%;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header{
+    margin-top: 80px;
+    font-size: 24px;
+    text-align: center;
+}
+.header span
+{
+    font-weight: 300;
+    display: block;
+}
+.header strong
+{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.main{
+    text-align:center;
+    margin-top: 80px;
+}
+.video, .form{
+    display: inline-block;
+    vertical-align: top;
+}
+.form{
+    margin-left: 30px;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid red;
+}
+.form_header
+{
+text-align:center;
+font-size: 20px;
+font-weight: 900;
+margin-bottom: 20px;
+}
+.form input{
+    margin-top: 10px;
+    width: 300px;
+    padding: 17px;
+    border:  1px solid #333;
+    font-size: 18px;
+    display: block;
+}
+.form button
+{
+    margin-top: 17px;
+    font-style: 18px;
+    font-weight: 900;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border: none;
+    width: 300px;
+    height: 52px;
+}
+.ytp-chrome-top-buttons{
+ display: none;
+}
